@@ -33,11 +33,13 @@ struct Main_View: View {
                         .frame(width: /*@START_MENU_TOKEN@*/300.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/300.0/*@END_MENU_TOKEN@*/)
                     // headtext
                     Text("Hi, I'm Asadbek!")
+                        .font(.custom("Montserrat-VariableFont_wght", size: 36))
                         .font(.largeTitle)
                         .fontWeight(.heavy)
                         .padding(.bottom)
                     // text
                     Text("19 y.o. Freelancer Frontend Developer based in Yangiyul, Tashkent, Uzbekistan. Welcome to my personal application.")
+                        .font(.custom("Montserrat-VariableFont_wght", size: 18))
                         .foregroundColor(Color(uiColor: UIColor(red: 0.67, green: 0.67, blue: 0.67, alpha: 1.00)))
                         .frame(width: 400.0)
                     HStack {
@@ -46,6 +48,7 @@ struct Main_View: View {
                         // About Me Button
                         Button("About me") {
                         }
+                        .font(.custom("Montserrat-VariableFont_wght", size: 18))
                         .padding(15.0)
                         .frame(width: 120.0)
                         .foregroundColor(.white)
@@ -55,6 +58,7 @@ struct Main_View: View {
                         // Portfolio Button
                         Button("Portfolio") {
                         }
+                        .font(.custom("Montserrat-VariableFont_wght", size: 18))
                         .padding(.all, 15.0)
                         .frame(width: 120.0)
                         .foregroundColor(.black)

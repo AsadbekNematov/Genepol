@@ -25,12 +25,13 @@ struct About_View: View {
                 VStack {
                     // Headlines
                     Text("About me")
+                        .font(.custom("Montserrat-VariableFont_wght", size: 36))
                         .font(.largeTitle)
                         .fontWeight(.bold)
                         .multilineTextAlignment(.leading)
                     // subhead
                     Text("Personal Page")
-                        .font(.title2)
+                        .font(.custom("Montserrat-VariableFont_wght", size: 22))
                         .foregroundColor(Color(hue: 0.173, saturation: 0.888, brightness: 0.855))
                         .padding(.bottom, 40.0)
                 }
@@ -43,6 +44,7 @@ struct About_View: View {
                         .scaledToFill()
                     HStack {
                         Text("Asadbek Nematov")
+                            .font(.custom("Montserrat-VariableFont_wght", size: 30))
                             .font(.title)
                             .fontWeight(.bold)
                             .multilineTextAlignment(.leading)
@@ -50,10 +52,12 @@ struct About_View: View {
                         Spacer()
                     }
                     Text("Good day! My name is Asadbek Nematov, and I am 19 years old. I had one year of professional front-end development experience and worked as a freelance front-end developer. I'm currently working on iOS development. You can view my frontend and development projects on my Genepol website, which served as my online portfolio. But now I have changed it into an iOS mobile application.")
+                        .font(.custom("Montserrat-VariableFont_wght", size: 18))
                         .padding(.top, 1)
                         .padding(.bottom)
                     HStack {
                         Text("Why did I switch from Frontend to iOS?")
+                            .font(.custom("Montserrat-VariableFont_wght", size: 30))
                             .font(.title)
                             .fontWeight(.bold)
                             .multilineTextAlignment(.leading)
@@ -61,18 +65,22 @@ struct About_View: View {
                         Spacer()
                     }
                     Text("Beginning my career with front-end web development was an exciting path because it's always evolving and constantly changing. This means one will always have the opportunity to interact with new tools and learn new skills, keeping one engaged in their career. But web apps need an active internet connection to run, whereas mobile apps may work offline. Mobile apps have the advantage of being faster and more efficient.")
+                        .font(.custom("Montserrat-VariableFont_wght", size: 18))
                         .padding(.top, 1)
                         .padding(.bottom)
                     //Stacks I use
                     HStack {
                         Text("Tech stack")
+                            .font(.custom("Montserrat-VariableFont_wght", size: 30))
                             .font(.title)
                             .fontWeight(.bold)
                             .multilineTextAlignment(.leading)
                             .padding(.top, 40)
                         Spacer()
                     }
-                    Text("Here is my Tech Stack, languages, and frameworks that I use in my projects.").multilineTextAlignment(.leading)
+                    Text("Here is my Tech Stack, languages, and frameworks that I use in my projects.")
+                        .font(.custom("Montserrat-VariableFont_wght", size: 20))
+                        .multilineTextAlignment(.leading)
                         .padding(.top, 1)
                         .padding(.bottom)
                     HStack {
@@ -81,6 +89,7 @@ struct About_View: View {
                                 .resizable()
                                 .scaledToFit()
                             Text("Swift")
+                                .font(.custom("Montserrat-VariableFont_wght", size: 14))
                                 .font(.caption2)
                         }.padding(.all, 4)
                         VStack {
@@ -88,6 +97,7 @@ struct About_View: View {
                                 .resizable()
                                 .scaledToFit()
                             Text("Objective-C")
+                                .font(.custom("Montserrat-VariableFont_wght", size: 14))
                                 .font(.caption2)
                         }.padding(.all, 4)
                         VStack {
@@ -95,6 +105,7 @@ struct About_View: View {
                                 .resizable()
                                 .scaledToFit()
                             Text("HTML, CSS")
+                                .font(.custom("Montserrat-VariableFont_wght", size: 14))
                                 .font(.caption2)
                         }.padding(.all, 4)
                     }.padding(.horizontal, 40)
@@ -104,6 +115,7 @@ struct About_View: View {
                                 .resizable()
                                 .scaledToFit()
                             Text("JavaScript")
+                                .font(.custom("Montserrat-VariableFont_wght", size: 14))
                                 .font(.caption2)
                         }.padding(.all, 4)
                         VStack {
@@ -111,6 +123,7 @@ struct About_View: View {
                                 .resizable()
                                 .scaledToFit()
                             Text("Bootstrap")
+                                .font(.custom("Montserrat-VariableFont_wght", size: 14))
                                 .font(.caption2)
                         }.padding(.all, 4)
                         VStack {
@@ -118,6 +131,7 @@ struct About_View: View {
                                 .resizable()
                                 .scaledToFit()
                             Text("ReactJS")
+                                .font(.custom("Montserrat-VariableFont_wght", size: 14))
                                 .font(.caption2)
                         }.padding(.all, 4)
                     }.padding(.horizontal, 40)

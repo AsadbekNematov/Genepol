@@ -14,21 +14,25 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "house.fill")
                     Text("Home")
+                        .font(.custom("Montserrat-VariableFont_wght", size: 18))
                 }
             Portfolio_View()
                 .tabItem {
                     Image(systemName: "paintpalette.fill")
                     Text("Portfolio")
+                        .font(.custom("Montserrat-VariableFont_wght", size: 18))
                 }
             About_View()
                 .tabItem {
                     Image(systemName: "person.fill")
                     Text("About")
+                        .font(.custom("Montserrat-VariableFont_wght", size: 18))
                 }
             FAQs_View()
                 .tabItem {
                     Image(systemName: "questionmark.bubble.fill")
                     Text("FAQs")
+                        .font(.custom("Montserrat-VariableFont_wght", size: 18))
                 }
         }
         .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)

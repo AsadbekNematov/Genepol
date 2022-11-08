@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F785CF7F291A150900549838 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F785CF7E291A150900549838 /* Montserrat-VariableFont_wght.ttf */; };
 		F7FED7F929172C3E00F482A2 /* GenepolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FED7F829172C3E00F482A2 /* GenepolApp.swift */; };
 		F7FED7FB29172C3E00F482A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FED7FA29172C3E00F482A2 /* ContentView.swift */; };
 		F7FED7FD29172C4000F482A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7FED7FC29172C4000F482A2 /* Assets.xcassets */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F785CF7E291A150900549838 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		F785CF80291A16DF00549838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F7FED7F529172C3E00F482A2 /* Genepol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Genepol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FED7F829172C3E00F482A2 /* GenepolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenepolApp.swift; sourceTree = "<group>"; };
 		F7FED7FA29172C3E00F482A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F785CF7D291A14C600549838 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F785CF7E291A150900549838 /* Montserrat-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		F7FED7EC29172C3E00F482A2 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +70,8 @@
 		F7FED7F729172C3E00F482A2 /* Genepol */ = {
 			isa = PBXGroup;
 			children = (
+				F785CF80291A16DF00549838 /* Info.plist */,
+				F785CF7D291A14C600549838 /* Fonts */,
 				F7FED7F829172C3E00F482A2 /* GenepolApp.swift */,
 				F7FED7FA29172C3E00F482A2 /* ContentView.swift */,
 				F7FED806291731B100F482A2 /* Views */,
@@ -146,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7FED80029172C4000F482A2 /* Preview Assets.xcassets in Resources */,
+				F785CF7F291A150900549838 /* Montserrat-VariableFont_wght.ttf in Resources */,
 				F7FED7FD29172C4000F482A2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,10 +308,11 @@
 				DEVELOPMENT_TEAM = 6SU8AZ6LDT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Genepol/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,10 +338,11 @@
 				DEVELOPMENT_TEAM = 6SU8AZ6LDT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Genepol/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
